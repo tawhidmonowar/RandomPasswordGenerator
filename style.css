@@ -8,9 +8,20 @@
 
 @media only screen and (max-width: 600px) {
     body {
-      background-color: rgb(4, 13, 15);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: #f8f8f8;
+        padding: 10px;
     }
-  }
+.inputField h2
+{
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+}
+}
 
 body
 {
