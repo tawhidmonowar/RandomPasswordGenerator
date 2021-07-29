@@ -5,6 +5,13 @@
     font-family: consolas;
     user-select: none;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(4, 13, 15);
+    }
+  }
+
 body
 {
     display: flex;
